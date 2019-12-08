@@ -32,7 +32,7 @@ In a browser, open http://$NODE_IP:$NODE_PORT
 ```
 You should see blue version of the app running as below
 
-![v1 of myapp](./static/vblue.png)
+![v1 of myapp](./static/v1blue.png)
 
 ## Upgrading
 
