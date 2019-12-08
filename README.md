@@ -2,6 +2,8 @@
 
 Helm chart for a quick demo!
 
+Ran this demo on *OSX* with *minikube* running locally.
+
 ## Dry run
 
 ```bash
@@ -10,11 +12,11 @@ helm install helm-demo --dry-run .
 
 ## {{ vars }}
 
-In the *templates* folder, *.yaml* files pull values from *.Chart* and *.Values* files.
+In the *templates* folder, *.yaml* files pull values from *.Chart* and *.values* files.
 
 *.Chart* has metadata about the chart, such as name, version etc
 
-*.Values* exposes configuration that can be changed/set at the time of deployment. Eg, *service.type*
+*.values* exposes configuration that can be changed/set at the time of deployment. Eg, *service.type, image.repository*
 
 
 ## Installing
