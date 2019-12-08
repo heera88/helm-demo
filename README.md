@@ -50,6 +50,12 @@ You should see blue version of the app running as below
 
 ![v2 of myapp](./static/v2green.png)
 
+## Packaging
+
+```bash
+helm package .
+```
+*helm-demo-{{ .Chart.version }}.tgz* should get saved to your working directory
 
 
 ## License
