@@ -4,6 +4,13 @@ Helm chart for a quick demo!
 
 Ran this demo on *OSX* with *minikube* running locally.
 
+Goals -
+* walkthrough 
+* Chart.yaml and values.yaml
+* install
+* upgrade
+* package
+
 ## Dry run
 
 ```bash
