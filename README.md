@@ -32,7 +32,22 @@ In a browser, open http://$NODE_IP:$NODE_PORT
 ```
 You should see blue version of the app running as below
 
-![v1 of myapp](./static/v1blue.png)
+![v1 of myapp](./static/vblue.png)
+
+## Upgrading
+
+Let's upgrade the app to a newer version (green)
+
+**Run:**
+```bash
+helm upgrade helm-demo . --set image.repository=heera88/blue-green-app:v2,service.type=NodePort
+
+In a browser, open http://$NODE_IP:$NODE_PORT
+```
+You should see blue version of the app running as below
+
+![v2 of myapp](./static/v2green.png)
+
 
 
 ## License
