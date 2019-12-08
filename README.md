@@ -12,11 +12,11 @@ helm install helm-demo --dry-run .
 
 ## {{ vars }}
 
-In the *templates* folder, *.yaml* files pull values from *.Chart* and *.values* files.
+In the *templates* folder, *.yaml* files pull values from *Chart.yaml* and *values.yaml* files.
 
-*.Chart* has metadata about the chart, such as name, version etc
+*Chart.yaml* has metadata about the chart, such as name, version etc
 
-*.values* exposes configuration that can be changed/set at the time of deployment. Eg, *service.type, image.repository*
+*values.yaml* exposes configuration that can be changed/set at the time of deployment. Eg, *service.type, image.repository*
 
 
 ## Installing
